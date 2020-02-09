@@ -25,7 +25,13 @@ $(function()
 		name: "A Little Love",
 		url: "Musics/A Little Love.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	}, {
+   		artist: "Cinnamons",
+   		name: "Summertime",
+    		url: "Musics/Summertime.mp3",
+    		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}];
+	
 	function shuffle(a) {
 		var j, x, i;
 		for (i = a.length - 1; i > 0; i--) {

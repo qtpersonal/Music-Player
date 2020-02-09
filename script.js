@@ -29,7 +29,7 @@ $(function()
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    		picture: "Background/bg3.jpg"
 	}];
 	
 	function shuffle(a) {

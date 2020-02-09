@@ -21,9 +21,9 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Cinnamons",
-		name: "Summer Time",
-		url: "Musics/Summertime.mp3",
+		artist: "Fiona Fung",
+		name: "A Little Love",
+		url: "Musics/A Little Love.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}];
 	function shuffle(a) {

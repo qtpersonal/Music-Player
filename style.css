@@ -40,6 +40,8 @@ body
     left: 0;
     bottom: 0;
     z-index: 2;
+    background-size: cover;
+    background-position: 50%;
 }
 
 #bg-layer img

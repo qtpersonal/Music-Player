@@ -29,7 +29,12 @@ $(function()
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "Background/bg3.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/b1fbc74d7d0a5a3542330e09202f9ce9689377eb/Background/bg3.jpg"
+	}, {
+   		artist: "Superluckyqi",
+   		name: "Câu Chuyện Nếu Như",
+    		url: "Musics/Cau Chuyen Neu Nhu.mp3",
+    		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}];
 	
 	function shuffle(a) {

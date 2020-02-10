@@ -34,7 +34,8 @@ $(function()
 		artist: "Shane Filan",
    		name: "Beautiful In White",
     		url: "Musics/Beautiful In White.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png",
+		background: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png"
 	}, {
    		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
@@ -224,6 +225,7 @@ $(function()
 			currAlbum = songs[currIndex].name;
             currTrackName = songs[currIndex].artist;
             currArtwork = songs[currIndex].picture;
+		currBackground = songs[currIndex].background;
 
             audio.src = songs[currIndex].url;
             
@@ -243,6 +245,8 @@ $(function()
 
             albumName.text(currAlbum);
             trackName.text(currTrackName);
+	    albumBackground.find('img').attr9'src', currBackground);
+	$('#album-background img').prop('src', bgArtworkUrl);
             albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }

@@ -25,22 +25,22 @@ $(function()
 		artist: "Fiona Fung",
 		name: "A Little Love",
 		url: "Musics/A Little Love.mp3",
-		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg1.jpg"
 	}, {
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.jpg"
 	}, {
-		artist: "Shane Filan",
-   		name: "Beautiful In White",
-    		url: "Musics/Beautiful In White.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png"
-	}, {
-   		artist: "Superluckyqi",
+		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
     		url: "Musics/Cau Chuyen Neu Nhu.mp3",
-    		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
+	}, {
+		artist: "Lynk Lee",
+   		name: "Ngày Ấy Bạn Và Tôi",
+    		url: "Musics/Ngay Ay Ban Va Toi.mp3",
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg"
 	}];
 	
 	function shuffle(a) {

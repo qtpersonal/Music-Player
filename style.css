@@ -21,22 +21,6 @@ body
     margin: -4px auto;
 }
 
-#bg-artwork
-{
-    position: fixed;
-    top: -30px;
-    right: -30px;
-    bottom: -30px;
-    left: -30px;
-	
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-    z-index: 1;
-}
-
 #bg-layer
 {
     position: fixed;
@@ -44,10 +28,37 @@ body
     right: 0;
     bottom: 0;
     left: 0;
-    
     z-index: 2;
 }
 
+#bg-layer:before
+{
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#bg-layer img
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+#bg-layer img.active
+{
+    opacity: 1;
+    z-index: 1;
+}
 #player
 {
     position: relative;

@@ -6,6 +6,7 @@ $(function()
 	var albumName = $('#album-name');
 	var trackName = $('#track-name');
 	var albumArt = $('#album-art'),
+	    bgLayer = $('#bg-layer'),
 		sArea = $('#s-area'),
 		seekBar = $('#seek-bar'),
 		trackTime = $('#track-time'),
@@ -24,26 +25,22 @@ $(function()
 		artist: "Fiona Fung",
 		name: "A Little Love",
 		url: "Musics/A Little Love.mp3",
-		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg",
-		background: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}, {
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg",
-		background: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
 	}, {
 		artist: "Shane Filan",
    		name: "Beautiful In White",
     		url: "Musics/Beautiful In White.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png",
-		background: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png"
 	}, {
    		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
     		url: "Musics/Cau Chuyen Neu Nhu.mp3",
-    		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg",
-		background: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+    		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}];
 	
 	function shuffle(a) {
@@ -228,7 +225,6 @@ $(function()
 			currAlbum = songs[currIndex].name;
             currTrackName = songs[currIndex].artist;
             currArtwork = songs[currIndex].picture;
-		currBgArtwork = songs[currIndex].background;
 
             audio.src = songs[currIndex].url;
             
@@ -248,8 +244,8 @@ $(function()
 
             albumName.text(currAlbum);
             trackName.text(currTrackName);
-	    bgArtwork.find('img').attr('src', currBgArtwork);
-	$('#bgArtwork img').prop('src', bgArtworkUrl);
+	    bgLayer.find('img').attr('src', currArtwork);
+            $('#bg-layer img').prop('src', bgArtworkUrl);
             albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }

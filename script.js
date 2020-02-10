@@ -6,6 +6,7 @@ $(function()
 	var albumName = $('#album-name');
 	var trackName = $('#track-name');
 	var albumArt = $('#album-art'),
+	    bgLayer = $('#bg-layer'),
 		sArea = $('#s-area'),
 		seekBar = $('#seek-bar'),
 		trackTime = $('#track-time'),
@@ -29,7 +30,12 @@ $(function()
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/b1fbc74d7d0a5a3542330e09202f9ce9689377eb/Background/bg3.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
+	}, {
+		artist: "Shane Filan",
+   		name: "Beautiful In White",
+    		url: "Musics/Beautiful In White.mp3",
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.png"
 	}, {
    		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
@@ -238,6 +244,9 @@ $(function()
 
             albumName.text(currAlbum);
             trackName.text(currTrackName);
+	    bgLayer.find('img').attr('src', currArtwork);
+            $('#bg-layer img').prop('src', bgArtworkUrl);
+            albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }
         else

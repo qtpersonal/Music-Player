@@ -225,7 +225,7 @@ $(function()
 			currAlbum = songs[currIndex].name;
             currTrackName = songs[currIndex].artist;
             currArtwork = songs[currIndex].picture;
-		currBackground = songs[currIndex].background;
+		currBgArtwork = songs[currIndex].background;
 
             audio.src = songs[currIndex].url;
             
@@ -245,8 +245,8 @@ $(function()
 
             albumName.text(currAlbum);
             trackName.text(currTrackName);
-	    albumBackground.find('img').attr9'src', currBackground);
-	$('#album-background img').prop('src', bgArtworkUrl);
+	    bgArtwork.find('img').attr('src', currBgArtwork);
+	$('#bgArtwork img').prop('src', bgArtworkUrl);
             albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }

@@ -13,7 +13,7 @@ body
 #app-cover
 {
     position: absolute;
-    top: 50%;
+    top: 90%;
     right: 0;
     left: 0;
     width: 430px;
@@ -63,6 +63,8 @@ body
 {
     position: relative;
     height: 100%;
+    opacity: 0.51;
+    background-color: #fff;
     z-index: 3;
 }
 

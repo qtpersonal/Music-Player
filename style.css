@@ -34,19 +34,6 @@ body
     z-index: 1;
 }
 
-#bg-layer:before
-{
-    content: '';
-    position: fixed;
-    top: -30px;
-    right: -30px;
-    bottom: -30px;
-    left: -30px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    z-index: 1;
-}
 
 #bg-layer img
 {

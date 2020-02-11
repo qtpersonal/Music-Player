@@ -37,14 +37,15 @@ body
 
 #bg-layer img
 {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    z-index: -1;
+    position: fixed;
+    top: -30px;
+    right: -30px;
+    bottom: -30px;
+    left: -30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
 }
 
 #bg-layer img.active

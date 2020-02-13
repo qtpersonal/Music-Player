@@ -3,6 +3,8 @@
     outline: none;
 }
 
+@media all and (min-width: 1280px)
+{
 body
 {
     font-family: Helvetica, Arial;
@@ -349,4 +351,5 @@ body
 .button:hover i
 {
     color: #fff;
+}
 }

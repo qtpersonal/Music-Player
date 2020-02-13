@@ -3,6 +3,8 @@ $(function()
     var playerTrack = $("#player-track");
 	var bgArtwork = $('#bg-artwork');
 	var bgArtworkUrl;
+	var bgArtworka = $('#bg-artwork');
+	var bgArtworkaUrl;
 	var albumName = $('#album-name');
 	var trackName = $('#track-name');
 	var albumArt = $('#album-art'),
@@ -230,6 +232,7 @@ $(function()
 			currAlbum = songs[currIndex].name;
             currTrackName = songs[currIndex].artist;
             currArtwork = songs[currIndex].picture;
+	    currArtworka = songs[currIndex].image;
 
             audio.src = songs[currIndex].url;
             
@@ -251,8 +254,8 @@ $(function()
             trackName.text(currTrackName);
 	    bgLayer.find('img').attr('src', currArtwork);
             $('#bg-layer img').prop('src', bgArtworkUrl);
-	    smLayer.find('img').attr('src', currArtwork);
-            $('#sm-layer img').prop('src', bgArtworkUrl);
+	    smLayer.find('img').attr('src', currArtworka);
+            $('#sm-layer img').prop('src', bgArtworkaUrl);
             albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }

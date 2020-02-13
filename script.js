@@ -3,13 +3,10 @@ $(function()
     var playerTrack = $("#player-track");
 	var bgArtwork = $('#bg-artwork');
 	var bgArtworkUrl;
-	var bgArtworka = $('#bg-artwork');
-	var bgArtworkaUrl;
 	var albumName = $('#album-name');
 	var trackName = $('#track-name');
 	var albumArt = $('#album-art'),
 	    bgLayer = $('#bg-layer'),
-	    smLayer = $('#sm-layer'),
 		sArea = $('#s-area'),
 		seekBar = $('#seek-bar'),
 		trackTime = $('#track-time'),
@@ -28,26 +25,22 @@ $(function()
 		artist: "Fiona Fung",
 		name: "A Little Love",
 		url: "Musics/A Little Love.mp3",
-		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg1.jpg",
-		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg"
+		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg1.jpg"
 	}, {
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.jpg",
-		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.jpg"
 	}, {
 		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
     		url: "Musics/Cau Chuyen Neu Nhu.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg",
-		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
 	}, {
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg",
-		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg"
 	}];
 	
 	function shuffle(a) {
@@ -232,7 +225,6 @@ $(function()
 			currAlbum = songs[currIndex].name;
             currTrackName = songs[currIndex].artist;
             currArtwork = songs[currIndex].picture;
-	    currArtworka = songs[currIndex].image;
 
             audio.src = songs[currIndex].url;
             
@@ -254,8 +246,6 @@ $(function()
             trackName.text(currTrackName);
 	    bgLayer.find('img').attr('src', currArtwork);
             $('#bg-layer img').prop('src', bgArtworkUrl);
-	    smLayer.find('img').attr('src', currArtworka);
-            $('#sm-layer img').prop('src', bgArtworkaUrl);
             albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }

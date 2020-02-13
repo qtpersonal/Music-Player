@@ -3,8 +3,6 @@
     outline: none;
 }
 
-@media all and (min-width: 320px)
-{
 body
 {
     font-family: Helvetica, Arial;
@@ -23,8 +21,52 @@ body
     margin: -4px auto;
 }
 
+@media all and (min-width: 320px)
+{
 #bg-layer
 {
+	display: none;
+}
+	
+#bg-layer img
+{
+	display: none;
+}
+	
+#sm-layer
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#sm-layer img
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+}
+
+#sm-layer
+{
+	display: none;
+}
+	
+#sm-layer img
+{
+	display: none;
+}
+	
+#bg-layer
+{
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -35,6 +77,7 @@ body
 
 #bg-layer img
 {
+    display: block;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -351,5 +394,4 @@ body
 .button:hover i
 {
     color: #fff;
-}
 }

@@ -32,17 +32,20 @@ $(function()
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.jpg",
+		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg
 	}, {
 		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
     		url: "Musics/Cau Chuyen Neu Nhu.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg",
+		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg
 	}, {
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg",
+		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg
 	}];
 	
 	function shuffle(a) {

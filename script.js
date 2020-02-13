@@ -7,6 +7,7 @@ $(function()
 	var trackName = $('#track-name');
 	var albumArt = $('#album-art'),
 	    bgLayer = $('#bg-layer'),
+	    smLayer = $('#sm-layer'),
 		sArea = $('#s-area'),
 		seekBar = $('#seek-bar'),
 		trackTime = $('#track-time'),
@@ -25,7 +26,8 @@ $(function()
 		artist: "Fiona Fung",
 		name: "A Little Love",
 		url: "Musics/A Little Love.mp3",
-		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg1.jpg"
+		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg1.jpg",
+		image: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/sm1.jpg"
 	}, {
    		artist: "Cinnamons",
    		name: "Summertime",
@@ -246,6 +248,8 @@ $(function()
             trackName.text(currTrackName);
 	    bgLayer.find('img').attr('src', currArtwork);
             $('#bg-layer img').prop('src', bgArtworkUrl);
+	    smLayer.find('img').attr('src', currArtwork);
+            $('#sm-layer img').prop('src', bgArtworkUrl);
             albumArt.find('img').attr('src', currArtwork);
             $('#album-art img').prop('src', bgArtworkUrl);
         }

@@ -20,51 +20,6 @@ body
     height: 100px;
     margin: -4px auto;
 }
-
-@media all and (max-width: 320px)
-{
-#bg-layer
-{
-	display: none;
-}
-	
-#bg-layer img
-{
-	display: none;
-}
-	
-#sm-layer
-{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-}
-
-#sm-layer img
-{
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-}
-
-@media all and (max-width: 1280px)
-{
-#sm-layer
-{
-	display: none;
-}
-	
-#sm-layer img
-{
-	display: none;
-}
 	
 #bg-layer
 {
@@ -84,7 +39,6 @@ body
     width: 100%;
     height: 100%;
     z-index: 1;
-}
 }
 
 #player

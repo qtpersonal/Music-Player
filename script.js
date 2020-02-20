@@ -37,6 +37,11 @@ $(function()
     		url: "Musics/Cau Chuyen Neu Nhu.mp3",
     		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
 	}, {
+		artist: "Trương Bích Thần ft Dương Tông Vỹ",
+   		name: "Lạnh Lẽo",
+    		url: "Musics/Lanh Leo.mp3",
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/unnamed.gif"
+	}, {
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",

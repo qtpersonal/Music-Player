@@ -40,7 +40,7 @@ $(function()
 		artist: "Trương Bích Thần ft Dương Tông Vỹ",
    		name: "Lạnh Lẽo",
     		url: "Musics/Lanh Leo.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/unnamed.gif"
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg5.gif"
 	}, {
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",

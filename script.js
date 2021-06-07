@@ -49,7 +49,7 @@ $(function()
 	}];
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
-    		url: "",
+    		url: "Musics/Ngay Ay Ban Va Toi.mp3",
     		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/3.mp4"
 	}];
 	

@@ -50,7 +50,7 @@ $(function()
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/3.mp4"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2.gif"
 	}];
 	
 	function shuffle(a) {

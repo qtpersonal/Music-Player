@@ -47,6 +47,11 @@ $(function()
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
     		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg"
 	}];
+		artist: "Lynk Lee",
+   		name: "Ngày Ấy Bạn Và Tôi",
+    		url: "",
+    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/3.mp4"
+	}];
 	
 	function shuffle(a) {
 		var j, x, i;

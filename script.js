@@ -47,9 +47,9 @@ $(function()
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg4.jpg"
 	}, {	
-		artist: "Lynk Lee",
-   		name: "Ngày Ấy Bạn Và Tôi",
-    		url: "Musics/Ngay Ay Ban Va Toi.mp3",
+		artist: "hi",
+   		name: "Test",
+    		url: "Musics/Beautiful In White.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2.gif"
 	}];
 	

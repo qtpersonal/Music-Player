@@ -25,32 +25,32 @@ $(function()
 		artist: "Fiona Fung",
 		name: "A Little Love",
 		url: "Musics/A Little Love.mp3",
-		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg1.jpg"
+		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg1.jpg"
 	}, {
    		artist: "Cinnamons",
    		name: "Summertime",
     		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg2.jpg"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg2.jpg"
 	}, {
 		artist: "Superluckyqi",
    		name: "Câu Chuyện Nếu Như",
     		url: "Musics/Cau Chuyen Neu Nhu.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg3.jpg"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg3.jpg"
 	}, {
 		artist: "Trương Bích Thần ft Dương Tông Vỹ",
    		name: "Lạnh Lẽo",
     		url: "Musics/Lanh Leo.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg5.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg5.gif"
 	}, {
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/bg4.jpg"
-	}];
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg4.jpg"
+	}, {	
 		artist: "Lynk Lee",
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
-    		picture: "https://raw.githubusercontent.com/quynhtrang270801/Music-Player/master/Background/3.mp4"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/3.mp4"
 	}];
 	
 	function shuffle(a) {

@@ -62,6 +62,11 @@ $(function()
     		url: "Musics/8.Tóc Tựa Tuyết - Hòa Tấu Sáo Bầu.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/8.gif"
 	}, {
+		artist: " ",
+   		name: "Instrumental",
+    		url: "Musics/9.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/8.gif"
+	}, {
 		artist: "Epic Music World",
    		name: "Hear It, See It And Feel It",
     		url: "Musics/10.Hear It, See It And Feel It - Epic Music World.mp3",

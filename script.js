@@ -47,8 +47,8 @@ $(function()
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg4.jpg"
 	}, {	
-		artist: "",
-   		name: "",
+		artist: "   ",
+   		name: "   ",
     		url: "Musics/2.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2.gif"
 	}];

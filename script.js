@@ -22,40 +22,50 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Fiona Fung",
-		name: "A Little Love",
-		url: "Musics/A Little Love.mp3",
-		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg1.jpg"
+		artist: "Yoko Shimomura",
+		name: "Valse Di Fantastica",
+		url: "Musics/1.Valse Di Fantastica - Yoko Shimomura.mp3",
+		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/1.gif"
 	}, {
-   		artist: "Cinnamons",
-   		name: "Summertime",
-    		url: "Musics/Summertime.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg2.jpg"
-	}, {
-		artist: "Superluckyqi",
-   		name: "Câu Chuyện Nếu Như",
-    		url: "Musics/Cau Chuyen Neu Nhu.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg3.jpg"
-	}, {
-		artist: "Trương Bích Thần ft Dương Tông Vỹ",
-   		name: "Lạnh Lẽo",
-    		url: "Musics/Lanh Leo.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg5.gif"
-	}, {
-		artist: "Lynk Lee",
-   		name: "Ngày Ấy Bạn Và Tôi",
-    		url: "Musics/Ngay Ay Ban Va Toi.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg4.jpg"
-	}, {
-		artist: "abc",
-   		name: "Beautiful In White",
-    		url: "Musics/Beautiful In White.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/test.gif"
-	}, {	
-		artist: "Little End",
+   		artist: "Little End",
    		name: "Forever Away",
-    		url: "Musics/2.mp3",
+    		url: "Musics/2.Forever Away - Little End.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2.gif"
+	}, {
+		artist: "GTech",
+   		name: "Hoàng Gia Minh Vệ",
+    		url: "Musics/3.Hoàng Gia Minh Vệ - GTech.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/3.gif"
+	}, {
+		artist: "Sam",
+   		name: "Sea of Stars",
+    		url: "Musics/4.Sea of Stars - Sam.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/4.gif"
+	}, {
+		artist: "Cuirong Li",
+   		name: "The Beautiful Summer",
+    		url: "Musics/5.The Beautiful Summer - Cuirong Li.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/5.gif"
+	}, {
+		artist: "Trương Như Anh",
+   		name: "Khép Lại Quá Khứ",
+    		url: "Musics/6.Khép Lại Quá Khứ - Trương Như Anh.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/6.gif"
+	}, {	
+		artist: "David Yen",
+   		name: "7.Who's the Equal of My Life - David Yen.mp3",
+    		url: "Musics/7.Who's the Equal of My Life - David Yen.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/7.gif"
+	}, {
+		artist: "Hòa Tấu",
+   		name: "Tóc Tựa Tuyết",
+    		url: "Musics/8.Tóc Tựa Tuyết - Hòa Tấu Sáo Bầu.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/8.gif"
+	}, {
+		artist: "Epic Music World",
+   		name: "Hear It, See It And Feel It",
+    		url: "Musics/10.Hear It, See It And Feel It - Epic Music World.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/10.gif"
 	}];
 	
 	function shuffle(a) {

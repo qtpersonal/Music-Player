@@ -46,6 +46,11 @@ $(function()
    		name: "Ngày Ấy Bạn Và Tôi",
     		url: "Musics/Ngay Ay Ban Va Toi.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/bg4.jpg"
+	}, {
+		artist: "abc",
+   		name: "Beautiful In White",
+    		url: "Musics/Beautiful In White.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2HD.gif"
 	}, {	
 		artist: "Little End",
    		name: "Forever Away",

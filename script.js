@@ -62,7 +62,7 @@ $(function()
     		url: "Musics/8.Tóc Tựa Tuyết - Hòa Tấu Sáo Bầu.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/8.gif"
 	}, {
-		artist: " ",
+		artist: "UK",
    		name: "Instrumental",
     		url: "Musics/9.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/9.gif"

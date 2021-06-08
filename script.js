@@ -53,7 +53,7 @@ $(function()
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/6.gif"
 	}, {	
 		artist: "David Yen",
-   		name: "7.Who's the Equal of My Life - David Yen.mp3",
+   		name: "Who's the Equal of My Life",
     		url: "Musics/7.Who's the Equal of My Life - David Yen.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/7.gif"
 	}, {

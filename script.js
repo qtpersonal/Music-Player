@@ -50,7 +50,7 @@ $(function()
 		artist: "abc",
    		name: "Beautiful In White",
     		url: "Musics/Beautiful In White.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2HD.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/test.gif"
 	}, {	
 		artist: "Little End",
    		name: "Forever Away",

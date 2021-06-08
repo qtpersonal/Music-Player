@@ -65,7 +65,7 @@ $(function()
 		artist: " ",
    		name: "Instrumental",
     		url: "Musics/9.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/8.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/9.gif"
 	}, {
 		artist: "Epic Music World",
    		name: "Hear It, See It And Feel It",

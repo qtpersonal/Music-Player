@@ -67,15 +67,15 @@ $(function()
     		url: "Musics/9.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/9.gif"
 	}, {
-		artist: "UK",
-   		name: "Instrumental",
-    		url: "Musics/9.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/test.gif"
-	}, {
 		artist: "Epic Music World",
    		name: "Hear It, See It And Feel It",
     		url: "Musics/10.Hear It, See It And Feel It - Epic Music World.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/10.gif"
+	}, {
+		artist: "UK",
+   		name: "Shrine",
+    		url: "Musics/11.Relaxing Music Shrine.mp3",
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/11.gif"
 	}];
 	
 	function shuffle(a) {

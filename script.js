@@ -25,7 +25,7 @@ $(function()
 		artist: "",
 		name: "",
 		url: "Musics/1.Valse Di Fantastica - Yoko Shimomura.mp3",
-		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Valse Di Fantastica - Yoko Shimomur.gif"
+		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Valse Di Fantastica - Yoko Shimomura.gif"
 	}, {
    		artist: "",
    		name: "",

@@ -55,7 +55,7 @@ body
     right: 15px;
     left: 15px;
     opacity: 0.8;
-    padding: 13px 22px 10px 184px;
+    padding: 1px 22px 10px 184px;
     background-color: #fff7f7;
     border-radius: 15px 15px 0 0;
     -webkit-transition: 0.3s ease top;
@@ -65,7 +65,7 @@ body
 
 #player-track.active
 {
-    top: -92px;
+    top: -40px;
 }
 
 #album-name
@@ -87,7 +87,6 @@ body
 
 #track-time
 {
-    height: 12px;
     margin-bottom: 3px;
     overflow: hidden;
 }

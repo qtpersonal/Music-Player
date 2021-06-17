@@ -47,8 +47,8 @@ $(function()
     		url: "Musics/5.The Beautiful Summer - Cuirong Li.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/5.gif"
 	}, {
-		artist: "Trương Như Anh",
-   		name: "Khép Lại Quá Khứ",
+		artist: "",
+   		name: "",
     		url: "Musics/6.Khép Lại Quá Khứ - Trương Như Anh.mp3",
     		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/6.gif"
 	}, {	

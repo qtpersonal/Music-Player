@@ -22,60 +22,60 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Yoko Shimomura",
-		name: "Valse Di Fantastica",
+		artist: "",
+		name: "",
 		url: "Musics/1.Valse Di Fantastica - Yoko Shimomura.mp3",
-		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/1.gif"
+		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Valse Di Fantastica - Yoko Shimomur.gif"
 	}, {
-   		artist: "Little End",
-   		name: "Forever Away",
+   		artist: "",
+   		name: "",
     		url: "Musics/2.Forever Away - Little End.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/2.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Forever Away - Little End.gif"
 	}, {
-		artist: "GTech",
-   		name: "Hoàng Gia Minh Vệ",
+		artist: "",
+   		name: "",
     		url: "Musics/3.Hoàng Gia Minh Vệ - GTech.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/3.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Hoàng Gia Minh Vệ - GTech.gif"
 	}, {
-		artist: "Sam",
-   		name: "Sea of Stars",
+		artist: "",
+   		name: "",
     		url: "Musics/4.Sea of Stars - Sam.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/4.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Sea of Stars - Sam.gif"
 	}, {
-		artist: "Cuirong Li",
-   		name: "The Beautiful Summer",
+		artist: "",
+   		name: "",
     		url: "Musics/5.The Beautiful Summer - Cuirong Li.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/5.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/The Beautiful Summer - Cuirong Li.gif"
 	}, {
 		artist: "",
    		name: "",
     		url: "Musics/6.Khép Lại Quá Khứ - Trương Như Anh.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/6.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Khép Lại Quá Khứ - Trương Như Anh.gif"
 	}, {	
-		artist: "David Yen",
-   		name: "Who's the Equal of My Life",
+		artist: "",
+   		name: "",
     		url: "Musics/7.Who's the Equal of My Life - David Yen.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/7.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Who's the Equal of My Life - David Yen.gif"
 	}, {
-		artist: "Hòa Tấu",
-   		name: "Tóc Tựa Tuyết",
+		artist: "",
+   		name: "",
     		url: "Musics/8.Tóc Tựa Tuyết - Hòa Tấu Sáo Bầu.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/8.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Tóc Tựa Tuyết - Hòa Tấu Sáo Bầu.gif"
 	}, {
-		artist: "UK",
-   		name: "Instrumental",
+		artist: "",
+   		name: "",
     		url: "Musics/9.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/9.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Instrumental - UK.gif"
 	}, {
-		artist: "Epic Music World",
-   		name: "Hear It, See It And Feel It",
+		artist: "",
+   		name: "",
     		url: "Musics/10.Hear It, See It And Feel It - Epic Music World.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/10.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Hear It, See It And Feel It - Epic Music World.gif"
 	}, {
-		artist: "UK",
-   		name: "Shrine",
+		artist: "",
+   		name: "",
     		url: "Musics/11.Relaxing Music Shrine.mp3",
-    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/11.gif"
+    		picture: "https://raw.githubusercontent.com/qtpersonal/Music-Player/master/Background/Relaxing Music Shrine - UK.gif"
 	}];
 	
 	function shuffle(a) {
